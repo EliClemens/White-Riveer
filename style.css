@@ -1,0 +1,110 @@
+body {
+    background-color: rgba(255, 255, 255, 0.714);
+    font-family: 'Dosis', sans-serif;
+}
+
+.body_container {
+    text-align: center;
+
+
+}
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom:50px;    
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#00356e;
+    font-size: 16px;
+}
+
+/*end nav
+/* first opaque image */
+.box1Image {
+    position: relative;
+    height:50vw;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("box1background.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust the opacity value as desired */
+  }
+  
+  /* Styles for the text elements */
+  .boxone,
+  .boxone.topp,
+  .learnMore {
+    position: relative;
+    z-index: 1;
+  }
+
+  /*services*/
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+.ourServices {
+    width: 25%;
+    text-align: left;
+    padding:20px;
+    line-height: 1.5;
+}
+
+/* end services */
+h1 {
+    color: rgb(0, 224, 0);
+    font-size: 65px;
+}
+/* button */
+.learnMore {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #00356e;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width:200px;
+    height: 65px;
+    z-index: 1;
+    /* end button */
+}
+/* words and button at top of screen */
+.box1{
+    height: 400px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.topp{
+    font-size: 18px;
+    width: 500px;
+    line-height:1.5;
+    font-weight: bold;
+}
+.box2{
+    height:300px;
+}
